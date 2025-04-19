@@ -1,0 +1,37 @@
+# === Global Ignore for Full-Stack Todo App ===
+
+# Node (Backend)
+backend/node_modules/
+backend/.env
+
+# Next.js (Frontend)
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+frontend/.env.local
+frontend/.env
+frontend/.vercel
+frontend/coverage
+frontend/build
+frontend/.pnp
+frontend/.yarn/*
+frontend/.yarn/patches
+frontend/.yarn/plugins
+frontend/.yarn/releases
+frontend/.yarn/versions
+frontend/next-env.d.ts
+frontend/*.tsbuildinfo
+
+# Misc / System
+.DS_Store
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Env files
+.env*
